@@ -1,0 +1,98 @@
+@media all and (orientation:landscape) { 
+    .start__portrait {
+        width: 40vw;
+        position: absolute;
+        bottom: 0;
+        left: 25vw;
+        z-index: 0
+    }
+
+    .start__painting {
+        width: 25vw;
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        z-index: 0
+    }
+ 
+    .start__title {
+        font-size: 5em;
+        z-index: 99999999;
+        position: absolute;
+        top: 20vh;
+        right: 14vw;
+
+    }
+
+    .start__description {
+        z-index: 99999999;
+        position: absolute;
+        top: calc(25vh + 6em);
+        left: 57vw;
+        width: 30vw !important;
+        white-space: normal;
+        text-align: left;
+        padding: 5px 8px;
+        background-color: rgba(255,255,255, 0.5);
+    }
+}
+
+@media all and (orientation:portrait) { 
+    .start__portrait {
+        width: 70vw;
+        position: absolute;
+        bottom: 70px;
+        left: 0px;
+        z-index: 0
+    }
+
+    .start__painting {
+        width: 30vw;
+        position: absolute;
+        bottom: 100px;
+        right: 50px;
+        z-index: 0
+    }
+
+    .start__title {
+        font-size: 3em;
+        z-index: 99999999;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+    
+
+    .start__description {
+        z-index: 99999999;
+        position: absolute;
+        top: calc(35px + 4em);
+        left: 20px;
+        width: 90%;
+        white-space: normal;
+        text-align: left;
+        padding: 5px 0;
+        background-color: rgba(255,255,255, 0.3);
+    }
+}
+
+@media (max-width: 199px) {
+    *{ font-size: 88%;}
+  }
+  
+  @media (min-width: 200px) and  (max-width: 249px) {
+    *{ font-size: 91%;  }
+  }
+  
+  @media (min-width: 250px) and  (max-width: 299px) {
+    *{ font-size: 94%;}
+  }
+  
+  @media (min-width: 300px) and  (max-width: 349px) {
+    *{ font-size: 97%;}
+  }
+  
+  @media (min-width: 350px) {
+    *{ font-size: 100%; }
+  }

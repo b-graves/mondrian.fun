@@ -1,0 +1,52 @@
+{
+  "name": "mondrian",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-split-pane": "^0.1.67",
+    "@types/reactstrap": "^8.4.2",
+    "aws-sdk": "^2.678.0",
+    "bootstrap": "^4.5.0",
+    "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^16.13.1",
+    "react-full-height": "^1.2.1",
+    "react-icons": "^3.10.0",
+    "react-scripts": "3.4.1",
+    "react-scroll-horizontal": "^1.6.4",
+    "react-split-pane": "^0.1.91",
+    "reactstrap": "^8.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-aspect-ratio": "^1.0.5"
+  }
+}
